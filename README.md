@@ -1,9 +1,9 @@
 # Kivy-in-Wayland-on-Raspberry-Pi
 [MaslowCNC](http://www.maslowcnc.com/) Kivy GroundControl on a Raspberry Pi 3 running the KDE Window Manager, wayland version.
 
-This is a solution, I came up with for running GroundControl or kivy python apps inside a Wayland compositor window while using a mouse or touchpad. If you are using a touchscreen then running KivyPie is probably the safe choice or running kivypie with the trapped cursor mod that was discussed and uploaded by Kingley in this earlier [forum thread](https://forums.maslowcnc.com/t/raspberry-pi-cursor/2019).
+This is a solution, I came up with for running the GroundControl CNC controller, a Python Kivy app for the MASLOWCNC project inside a Wayland compositor window without a touchscreen. If you are using a touchscreen then running [KivyPie](http://kivypie.mitako.eu/) is probably the safe choice or running kivypie with the trapped cursor mod that was discussed and uploaded by Kingley in this earlier [forum thread](https://forums.maslowcnc.com/t/raspberry-pi-cursor/2019).
 
-[Disclaimer] *As of this writing I have not yet received my Maslow CNC kit, and I have only been able to perform limited testing on a Raspberry Pi 3b with a bluetooth keyboard and touchpad (Logitech K400R).
+[Disclaimer] *As of this writing I have not yet received my Maslow CNC kit, and I have only been able to perform limited testing on a Raspberry Pi 3b with a bluetooth keyboard with touchpad (Logitech K400R).
  Also, be warned you will need to enable the [experimental] GL driver in `raspi-config` and  that the current 'KDE Window manager wayland version' being used is considered a [PREVIEW] release.*
 
 Disclaimer aside, I have been able to run GroundContol in a windowed environment without any screen lag or the missing cursor problem, as encountered when using KivyPie without a touchscreen. 
